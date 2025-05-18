@@ -1,0 +1,1443 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "aptly", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+
+
+h1{
+    font-size: 28px;
+}
+
+
+
+header{
+    position: fixed;
+    width: 100%;
+    height: 180px;
+    
+   
+}
+
+p{
+    margin: 0;
+}
+
+.menu{
+    background-color: rgb(29, 29, 27, 0.9);
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+    padding: 0 40px; 
+    height: 150px;
+    
+   
+    
+}
+
+.link-menu{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+.link-menu:hover{
+
+    color: #FFE500;
+}
+
+.escudooutes{
+    height: 70px;
+    width: 30%;
+    margin-top: -10px;
+   
+    
+}
+
+
+
+
+.botonesmenu{
+ 
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; 
+    width: 780px; 
+    padding-top: 40px;
+    margin: 0;
+    list-style-type: none; 
+    
+    
+}
+.botonesmenu li{
+    display: inline-block;
+    margin: 0 15px;
+    
+    }
+
+.botonesmenu ul{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    font-size: 35px;
+    
+    }
+
+.menu-item{
+    text-decoration: none;
+    color: #FFFFFF; 
+    font-size: 18px; 
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+.principal{
+    
+    width: 100%;
+    display: flex;
+    padding-top: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: #1D1D1B;
+}
+
+.carrusel{
+    height: 790px;
+    width: 70%;
+    background-image: url(./imagenes/main_home.JPG);
+    background-size: cover;
+    border-radius: 0px 30px 0px 0px;
+    margin-top: 30px;
+    
+}
+
+.amarillohome{
+    height: 790px;
+    width: 31%;
+    background-color: #1D1D1B;
+    margin-top: 30px;
+    
+    
+    
+    
+}
+
+
+
+.ultimasnoticias-home{
+    height: 450px;
+    width: 450px;
+    padding: 10px 0px 0px 10px ; 
+    margin: 5px 40px 10px 60px;
+  
+    background-image: url(.//imagenes/ultimas_noticias.jpg);
+    background-size:cover;
+    border-radius: 20px;
+    color: #ffffff;
+    
+}
+
+.ultimasnoticias-home:hover{
+    background-color: #fffff9;
+}
+
+.titulo-ultimasnoticias-home{
+    
+    margin-bottom: 60px;
+}
+
+
+.ultimas-noticias-partidos-links{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    
+}
+
+.ultimas-noticias-partidos-links:hover{
+    padding-left: 30px; 
+}
+
+.novaequipacion-home{
+    display: flex;
+    width: 430px;
+    height: 250px;
+   
+    background-image: url(.//imagenes/equipacion_home.JPG);
+    background-size: cover;
+    margin: 20px 40px 10px 60px;
+    padding: 0px 0px 0px 10px ;
+    padding: 15px;
+    
+  
+    border-radius: 20px;
+}
+
+
+
+
+.novaequipacion-home:hover{
+   color: #FFE500;
+}
+
+.clasificacion-equipacion-home-link{
+    color: #ffffff;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+.clasificacion-equipacion-home-link-hover{
+    color: #1D1D1B;
+    
+    text-decoration: none;
+    font-size: 25px;
+}
+
+
+
+
+.texto-undoustresoutes{
+    display: flex;
+    width: 100%;
+    height: 60px;
+    background-color: rgb(255, 255, 255);
+    align-items: center;
+    justify-content: space-evenly;
+    border-block: 3px solid #1D1D1B;
+
+}
+
+
+
+
+/*proximos partidos*/
+
+
+
+
+
+.proximos-partidos{
+    width: 100%;
+    height: 650px;
+   
+    margin-top: 20px;
+}
+
+.proximos-partidos-titulo{
+    width: 1400px;
+    height: 30px;
+    margin: 0px 250px ;
+  
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #1d1d1b;
+}
+
+
+.proximos-partidos-contenedores{
+    display: flex;
+    height: 650px;
+    margin: 60px 250px ;
+    justify-content: space-between;
+    
+}
+
+.proximos-partidos-contenedor-01,
+.proximos-partidos-contenedor-02,
+.proximos-partidos-contenedor-03{
+    width: 32%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+   
+    
+}
+
+.proximos-partidos-imagenhover-01{
+    width: 100%;
+    height: 90%;
+    padding: 10px 0px 10px 0px;
+    align-content: space-between;
+     display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    border: 3px solid #1d1d1b;
+    border-radius: 30px;
+    background-image: url(./imagenes/proximos_partidos_01.jpg);
+    background-size: cover;
+    text-decoration: none;
+    background-position: center;
+
+}
+
+.proximos-partidos-imagenhover-02{
+    width: 100%;
+    height: 95%;
+    padding: 10px 0px 10px 0px;
+    align-content: space-between;
+     display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    border: 3px solid #1d1d1b;
+    border-radius: 30px;
+    background-image: url(./imagenes/proximos_partidos_02.jpg);
+    background-size: 100%;
+    background-position: center;
+    text-decoration: none;
+
+
+}
+
+
+.proximos-partidos-imagenhover-03{
+    width: 100%;
+    height: 90%;
+    padding: 10px 0px 10px 0px;
+    align-content: space-between;
+     display: flex;
+    flex-direction: column; 
+    justify-content: space-between; 
+    border: 3px solid #1d1d1b;
+    border-radius: 30px;
+    background-image: url(./imagenes/proximos_partidos_03.jpg);
+    background-size: cover;
+    text-decoration: none;
+background-position: center;
+
+}
+
+
+.proximos-partidos-imagenhover-01:hover,
+.proximos-partidos-imagenhover-02:hover,
+.proximos-partidos-imagenhover-03:hover{
+    background-color: #1D1D1B;
+    background-image: none;
+}
+
+
+
+
+.proximos-partidos-imagenhover-contenido-superior{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    height: 10%;
+    color: #FFFFFF;
+    font-size: 25px;
+}
+
+.proximos-partidos-imagenhover-contenido{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 100%;
+    height: 10%;
+    color: #FFFFFF;
+    font-size: 25px;
+
+}
+
+.proximos-partidos-subtitulo{
+    width: auto;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    color: #1d1d1b;
+    font-size: 25px;
+    
+}
+
+
+
+
+/*mais noticias*/
+
+
+.mais-novas{
+    width: 100%;
+    height: 880px;
+    margin-top: 200px;
+}
+
+.mais-novas-titulo{
+    width: 1400px;
+    height: 30px;
+    margin: 0px 250px ;
+    
+    padding-top: 10px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #ffffff;
+}
+
+.ultimas-novas-titulo-ultimasnovas{
+    font-size: 100px;
+}
+
+.mais-novas-contenedores{
+    
+    height: 800px;
+    width: 100%;
+   
+    display: flex;
+    padding-top: 150px;
+    justify-content: space-between;
+    justify-content: center;
+
+}
+
+.mais-novas-contenedores-01,
+.mais-novas-contenedores-02,
+.mais-novas-contenedores-03{
+    height: 450px;
+    width: 33%;
+    text-decoration: none;
+    
+    
+}
+
+.mais-novas-contenedores-titular-01,
+.mais-novas-contenedores-titular-02,
+.mais-novas-contenedores-titular-03{
+    height: 140px;
+    width: 98%;
+    background-color: none ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1D1D1B;
+    font-size: 20px;
+    border:  solid 3px #1D1D1B;
+    border-radius: 10px 10px 0px 0px;
+    
+}
+
+.mais-novas-contenedores-imagen-01{
+        height: 500px;
+    width: 98%;
+    background-image: url(./imagenes/ultimas_novas_home_03.jpg);
+    
+    background-position: center;
+    border-left: solid 3px #1d1d1b;
+    border-right: solid 3px #1d1d1b;
+    border-bottom: solid 3px #1d1d1b;
+    background-size: 100%;
+    background-size: cover;
+}
+.mais-novas-contenedores-imagen-02{
+        height: 500px;
+    width: 98%;
+    background-image: url(./imagenes/imagenpruebanoticias.jpg);
+    
+    background-position: center;
+    border-left: solid 3px #1d1d1b;
+    border-right: solid 3px #1d1d1b;
+    border-bottom: solid 3px #1d1d1b;
+    background-size: 110%;
+}
+.mais-novas-contenedores-imagen-03{
+    height: 500px;
+    width: 98%;
+    background-image: url(./imagenes/ultimas_novas_home_01.jpg);
+    background-size: 100%;
+    background-position: center;
+    border-left: solid 3px #1d1d1b;
+    border-right: solid 3px #1d1d1b;
+    border-bottom: solid 3px #1d1d1b;
+    background-size: 110%;
+    
+    
+}
+
+.mais-novas-contenedores-imagen-01:hover{
+       height: 500px;
+    width: 98%;
+    background-size: 125%;
+}
+.mais-novas-contenedores-imagen-02:hover,
+.mais-novas-contenedores-imagen-03:hover{
+    height: 500px;
+    width: 98%;
+    background-size: 115%;
+}
+    
+
+
+
+
+
+
+
+#equipacion{
+    
+    background-color: #ffffff;
+    height:800px;
+    width: 100%;
+    margin-top: px;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+}
+    
+
+
+.equipacion-titulo{
+    background-color: #ffffff;
+    height: 25%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
+    
+}
+
+.equipacion-titulo-equipacion{
+    color: #1d1d1b;
+    font-size: 100px;
+}
+
+.equipacion-video{
+    background-color: rgb(114, 190, 0);
+    height: 75%;
+    width: 98%;
+    justify-self: center;
+    border-radius: 30px;
+    background-image: url(./imagenes/composicion_equipacion.jpg);
+    background-size:cover;
+    
+}
+
+
+.mapa-home{
+  
+
+   background-color:#FFFFFF;
+    height: 650px;
+    width: 100%;
+    margin-bottom: 50px;
+
+
+}
+
+.mapa-home-titulo{
+    width: 1400px;
+    height: 30px;
+    margin: 0px 250px ;
+    color: #1D1D1B;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    border-bottom: 3px solid #1D1D1B;
+}
+
+.mapa{
+    
+    height: 450px;
+    width: 1400px;
+    margin: 40px 250px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+/*---------------------------CLASIFICACION------------------------------------*/
+
+
+
+
+.clasificacion-cuadro{
+    width: 88.5%;
+    height: 500px;
+    padding-top: 180px;
+    margin: 0px 0px 0px 220px;
+    
+}
+
+.clasificacion-clasi{
+    width: 190px;
+    height: 70px;
+    /*background-color: #ffffff;*/
+    font-size: 72px;
+    color: #1D1D1B;
+    justify-content: space-evenly;
+    
+    margin-top: -12px;
+}
+
+
+
+.clasificacion-senior{
+    /*background-color: #1d1d1b;*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: #FFFFFF;
+    
+    align-content: center;
+    
+    
+    
+}
+
+.clasificacion-femenino{
+    /*background-color: #1d1d1b;*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: #FFFFFF;
+    margin:10px 0px;
+    align-content: center;
+}
+
+.clasificacion-veteranos{
+    /*background-color: #1d1d1b;*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: #FFFFFF;
+    margin:0px 0px;
+    align-content: center;
+}
+
+.clasificion-info-senior{
+   width: 100%;
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    background-color: #1D1D1B;
+    
+
+}
+
+.clasificacion-texto-cuadro{
+    margin-left: 40px;
+    /*background-color:#00d9ff*/
+}
+
+.clasificacion-texto-cuadro-grupo01{
+    display: flex;
+    margin-left: 100px;
+    /*background-color:#00d9ff*/
+
+}
+.clasificacion-texto-cuadro-grupo02{
+    display: flex;
+    margin-left: 200px;
+    /*background-color:#00d9ff*/
+    width: 250px;
+    justify-content: space-evenly;
+}
+.clasificacion-texto-cuadro-grupo03{
+    display: flex;
+    margin-left: 30px;
+    /*background-color:#00d9ff*/
+    width: 150px;
+    justify-content: space-evenly;
+    
+    
+}
+
+.clasificacion-texto-cuadro-posicion-senior{
+    background-color: #FFE500;
+    margin-left: 69px;
+    margin-right: 10px;
+    color: #1d1d1b;
+    padding: 5px;
+
+}
+
+.clasificacion-texto-cuadro-posicion-femenino{
+    background-color: #FFE500;
+    margin-left: 40px;
+    margin-right: 10px;
+    color: #1d1d1b;
+    padding: 5px;
+}
+
+.clasificacion-texto-cuadro-posicion-veteranos{
+    background-color: #FFE500;
+    margin-left: 24px;
+    margin-right: 10px;
+    color: #1d1d1b;
+    padding: 5px;
+
+}
+
+
+.clasificacion-texto-cuadro-flecha-verde{
+    color: greenyellow;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.clasificacion-texto-cuadro-flecha-roja{
+    color: red;
+    font-size: 20px;
+    align-self: center;
+    justify-self: center;
+}
+
+.clasificacion-texto-cuadro-puntos-senior,
+.clasificacion-texto-cuadro-puntos-femenino{
+color: #1D1D1B;
+padding: 5px 10px;
+background-color: #FFFFFF;
+margin-left: 100px;
+}
+
+.clasificacion-texto-cuadro-puntos-veteranos{
+  color: #1D1D1B;
+  padding: 5px 15px;
+  background-color: #FFFFFF; 
+  margin-left: 100px; 
+}
+
+
+.clasificacion-texto-cuadro-vermais{
+    margin-left: 230px;
+ 
+}
+
+
+.vermais-clasificacion{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.vermais-clasificacion:hover{
+    text-decoration: none;
+    color: #FFE500;
+}
+
+.clasificacion-pts{
+    /*background-color: aqua;*/
+    width: 100%;
+    height: 60px;
+    display: flex;
+    color: #FFFFFF;
+    margin-top: 10px;
+    align-content: center;
+    
+}
+
+.clasificacion-rayas{
+    width: 190px;
+    height: 70px;
+    /*background-color: #ffffff;*/
+    font-size: 60px;
+    
+    color: #1D1D1B;
+    justify-content: space-evenly;
+
+}
+
+.clasificacion-puntos-jugados-ganados-etc{
+    display: flex;
+    /*background-color: blue;*/
+    margin-left: 440px;
+    font-size: 30px;
+    color: #1D1D1B;
+    width: 660px;
+    margin-bottom: -30px;
+}
+
+.clasificacion-etc-jugados{
+    margin-left: 256px;
+}
+.clasificacion-etc-ganados,
+.clasificacion-etc-empatados,
+.clasificacion-etc-perdidos{
+    margin-left: 48px;
+}
+
+.clasificacion-etc-favor{
+    margin-left: 95px;
+}
+
+.clasificacion-etc-contra{
+    margin-left: 60px;
+}
+
+.clasificacion-partidos-goles{
+    display: flex;
+    /*background-color: darkmagenta;*/
+    margin-left: 920px;
+    font-size: 25px;
+}
+
+.clasificacion-partidos-goles-partidos{
+    background-color: #1D1D1B;
+    color: #FFFFFF;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.clasificacion-partidos-goles-goles{
+    background-color: #1D1D1B;
+    color: #FFFFFF;
+    width: 110px;
+    margin-left: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+.partidos_titulo{
+    width: 100%;
+    height: 45px;
+    margin-top: 80px ;
+    font-size: 72px;
+    padding-top: 30px;
+    padding-bottom: 40px;
+    /*border-bottom: 3px solid #1d1d1b;*/
+}
+
+.temporadas_leyenda{
+    margin-top: 15px;
+    width: 95%;
+    height: 1s0px;
+    display: flex;
+    border-bottom: solid 3px #1d1d1b;
+}
+
+.temporada_2425{
+    
+    width: 75%;
+    height: 40px;
+    font-size: 30px;
+    
+}
+
+
+
+.leyenda{
+   
+    width: 35%;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+.leyenda_ganados,
+.leyenda_perdidos,
+.leyenda_empatados{
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display:flex;
+    font-size: 30px;
+
+}
+
+.cuadradito_de_color_ganados{
+    height: 20px;
+    width: 20px;
+    background-color: chartreuse;
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+.cuadradito_de_color_perdidos{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+.cuadradito_de_color_empatados{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(251, 255, 0);
+    border-radius: 10px;
+    margin-right: 10px;
+}
+
+
+/*..........BOTONES SENIOR FEMENINO VETERANO............*/
+
+.temporadas_categorias{
+   
+    width: 95%;
+    height: 50px;
+    display: flex;
+    margin: 30px 0px;
+    justify-content: space-evenly;
+    font-size: 30px;
+}
+
+.centrar_temporadas_categorias{
+    
+    width: 40%;
+    height: 50;
+    display: flex;
+    justify-content: space-between;
+}
+
+.temporadas_categorias_senior,
+.temporadas_categorias_femenino,
+.temporadas_categorias_veteranos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5px 8px;
+    border: solid 3px #1D1D1B;
+    border-radius: 20px;
+  
+}
+
+.temporadas_categorias_senior:hover,
+.temporadas_categorias_femenino:hover,
+.temporadas_categorias_veteranos:hover{
+    
+    background-color: #FFE500;
+}
+
+/*...................CALENDARIO RESULTADOS.................*/
+.partidos_resultados_calendario{
+    
+    height: 800px;
+    width: 95%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+
+/*...................CALENDARIO RESULTADOS PRIMERA COLUMNA.................*/
+
+.partidos_resultados{
+   
+    width: 29%;
+    
+}
+
+.partidos_calendario{
+  
+    width: 70%;
+}
+
+.partidos_resultados_contenido{
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    align-items: center;
+    margin: 10px 15px;
+    color: #2c2c2c;
+  
+}
+
+.cuadro_partidos_calendario_contenido{
+    border-bottom: solid 3px #1D1D1B;
+    border-left: solid 3px #1D1D1B;
+    border-right: solid 3px #1D1D1B;
+}
+
+.partidos_calendario_contenido{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  
+   
+    font-size: 25px;
+    padding: 8px 15px;
+}
+
+.partidos_resultados_titulo_01{
+    
+    font-size: 30px;
+    border: solid 3px #1d1d1b;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.partidos_resultados_titulo_02{
+    background-color: #FFE500;
+    font-size: 30px;
+    border: solid 3px #1d1d1b;
+    padding: 10px;
+}
+
+.cuadradito_victoria{
+    background-color: chartreuse;
+    height: 8px;
+    width: 20px;
+}
+
+.cuadradito_empate{
+    background-color:  rgb(251, 255, 0);
+    height: 8px;
+    width: 20px;
+}
+.cuadradito_derrota{
+    background-color: rgb(255, 0, 0);
+    height: 8px;
+    width: 20px;
+}
+
+
+
+
+
+
+.calendario_fecha{
+    
+    display: flex;
+    justify-content: left;
+    width: 200px;
+}
+.calendario_equipos{
+  
+   
+   display: flex;
+   justify-content: center;
+   width: 250px;
+    
+}
+
+.calendario_hora{
+  
+   
+   display: flex;
+   justify-content: center;
+   width: 250px;
+    
+}
+.calendario_lugar{
+    
+    display: flex;
+    justify-content: right;
+    width: 250px;
+}
+
+
+/*-------------imagen decoracion clasificacion calendario -----------------*/
+
+
+.imagen_calsificaciones_partidos_decoracion{
+    width: 100%;
+    height: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*----------PAGINA NOTICIAS 03-----------------------------------------*/
+
+
+.noticias_cuadro{
+    width:85.5%;;
+    height: 100%;
+    padding-top: 180px;
+    margin: 0px 0px 100px 220px;
+    
+}
+.noticias_p03_titulo{
+    width: 500px;
+    height: 70px;
+    /*background-color: #ffffff;*/
+    font-size: 72px;
+    color: #1D1D1B;
+    justify-content: space-evenly;
+   
+    margin-top: -12px;
+}
+
+
+
+.noticias_p03_primera_columna{
+    width:100%;
+    height: 600px;
+    background-color: blue;
+    margin-top: 100px;
+    display: flex;
+    border: 3px solid #1D1D1B;
+}
+
+.noticias_p03_segunda_columna{
+    width:100%;
+    height: 600px;
+   
+   
+    display: flex;
+    border: 3px solid #1D1D1B;
+    border-top: none;
+}
+
+
+.noticia_01{
+    background-image:url(./imagenes/noticia_01.jpg);
+    background-size: cover;
+    width: 40%;
+   height: 100%;
+   border-right: 3px solid #1D1D1B;
+}
+.noticia_02{
+    background-image:url(.//imagenes/noticia_10.jpg);
+    background-size: cover;
+    width: 40%;
+    height: 100%;
+    border-right: 3px solid #1D1D1B;
+}
+.noticia_03{
+   
+    background-image:url(./imagenes/noticia_04.jpg);
+    background-size: cover;
+    width:40%;
+    height: 100%;
+    border-right: 3px solid #1D1D1B;
+
+}
+
+.noticia_04{
+    background-image:url(./imagenes/noticia_05.jpg);
+    background-size: cover;
+    width:40%;
+    height: 100%;
+
+}
+
+.nombre_noticia{
+    background-color: rgb(29, 29, 27, 0.5);
+    
+    color: #FFFFFF;
+    height: 33%;
+    padding: 20px;
+
+    
+}
+
+.nombre_noticia_clasificacionyfecha{
+    margin-top: 10px;
+    display: flex ;
+    justify-content: space-between;
+
+}
+
+.titulo_noticia_contenido{
+    
+    margin-top: 10%;
+    font-size: 30px;
+
+}
+
+    
+  
+
+.enlace_quepasanacosta{
+    color: #FFFFFF;
+    margin-top: 8%;
+   
+    display: flex;
+    justify-content: flex-end;
+    text-decoration: none;
+    
+
+}
+
+.enlace_quepasanacosta:hover{
+    color: #FFE500;
+}
+
+
+
+
+/*--------------------------------CONTACTOS-----------------------------*/
+
+.cuerpo_contactos{
+    background-color: #1D1D1B;
+    width: 100%;
+    height: 920px;
+}
+
+.cuerpo_contactos_titulo{
+   
+    font-size: 72px;
+    color: #ffffff;
+    font-style: normal;
+    justify-content: space-evenly;
+    padding:140px 0px 0px 250px;
+}
+
+.contactos_info{
+  
+    padding: 200px 0px 0px 250px;
+    width: 1600px;
+     max-width: 1600px;
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    
+}
+
+.info_01,
+.info_02,
+.info_03{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 120px;
+    width: 32%;
+    color: #FFFFFF;
+    font-size: 20px;
+    border: solid 3px #ffffff;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.info_01:hover,
+.info_02:hover,
+.info_03:hover{
+    color: #1D1D1B;
+    background-color: #FFE500;
+    border: solid 3px #FFE500;
+
+}
+
+
+/* RESPONSIVE DESIGN - Ajustes para móviles y pantallas pequeñas */
+
+@media screen and (max-width: 1200px) {
+    .menu {
+        flex-direction: column;
+        height: auto;
+        padding: 10px;
+    }
+
+    .botonesmenu {
+        flex-direction: column;
+        width: 100%;
+        padding-top: 10px;
+    }
+
+    .principal {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .carrusel,
+    .amarillohome {
+        width: 90%;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .ultimasnoticias-home,
+    .novaequipacion-home {
+        width: 100%;
+        margin: 10px 0;
+    }
+
+    .proximos-partidos-titulo,
+    .mapa-home-titulo,
+    .mais-novas-titulo {
+        width: 90%;
+        margin: auto;
+    }
+
+    .proximos-partidos-contenedores,
+    .mais-novas-contenedores {
+        flex-direction: column;
+        align-items: center;
+        margin: 20px auto;
+        width: 90%;
+        gap: 20px;
+    }
+
+    .proximos-partidos-contenedor-01,
+    .proximos-partidos-contenedor-02,
+    .proximos-partidos-contenedor-03,
+    .mais-novas-contenedores-01,
+    .mais-novas-contenedores-02,
+    .mais-novas-contenedores-03 {
+        width: 100%;
+    }
+
+    .mapa {
+        width: 100%;
+        margin: 20px 0;
+    }
+
+    iframe {
+        width: 100% !important;
+        height: auto;
+    }
+
+    .clasificacion-cuadro {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 150px;
+    }
+
+    .clasificacion-texto-cuadro-grupo01,
+    .clasificacion-texto-cuadro-grupo02,
+    .clasificacion-texto-cuadro-grupo03 {
+        margin-left: 10px;
+        flex-wrap: wrap;
+    }
+
+    .clasificacion-puntos-jugados-ganados-etc {
+        flex-wrap: wrap;
+        justify-content: space-around;
+        margin-left: 0;
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .clasificacion-partidos-goles {
+        flex-direction: column;
+        align-items: center;
+        margin-left: 0;
+    }
+
+    .partidos_resultados_calendario {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .partidos_resultados,
+    .partidos_calendario {
+        width: 100%;
+    }
+
+    .contactos_info {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        padding: 100px 0 0 0;
+    }
+
+    .info_01, .info_02, .info_03 {
+        width: 90%;
+        margin-bottom: 20px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .menu-item {
+        font-size: 16px;
+    }
+
+    .ultimas-noticias-partidos-links,
+    .clasificacion-equipacion-home-link {
+        font-size: 16px;
+    }
+
+    .equipacion-titulo-equipacion {
+        font-size: 40px;
+    }
+
+    .ultimas-novas-titulo-ultimasnovas {
+        font-size: 50px;
+    }
+
+    .proximos-partidos-imagenhover-contenido-superior,
+    .proximos-partidos-imagenhover-contenido {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .cuerpo_contactos_titulo {
+        font-size: 48px;
+        padding: 80px 0 0 50px;
+    }
+    .contactos_info {
+        padding: 100px 20px 0;
+    }
+    .info_01,
+    .info_02,
+    .info_03 {
+        width: 30%;
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .cuerpo_contactos_titulo {
+        font-size: 42px;
+        padding: 60px 0 0 30px;
+    }
+    .contactos_info {
+        padding: 80px 15px 0;
+    }
+    .info_01,
+    .info_02,
+    .info_03 {
+        width: 33%;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .cuerpo_contactos_titulo {
+        font-size: 36px;
+        padding: 60px 0 0 20px;
+    }
+    .contactos_info {
+        padding: 50px 10px 0;
+    }
+    .info_01,
+    .info_02,
+    .info_03 {
+        width: 45%;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 480px) {
+    .cuerpo_contactos_titulo {
+        font-size: 28px;
+        padding: 40px 0 0 10px;
+    }
+    .info_01,
+    .info_02,
+    .info_03 {
+        width: 90%;
+        font-size: 12px;
+    }
+}
+
+
+
